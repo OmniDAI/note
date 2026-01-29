@@ -1,16 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# OmniDAI Website
 
-Currently, two official plugins are available:
+This is a simple, single-page React application for the OmniDAI website, built with Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## React Compiler
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+You will need to have Node.js and npm installed on your machine.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installing
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd <project-directory>
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+### Running the Application
+
+To run the application in development mode, use the following command:
+
+```sh
+npm run dev
+```
+
+This will start the Vite development server and open the application in your default browser.
+
+## Project Structure
+
+- `public/`: Contains the static assets for the project.
+- `src/`: Contains the main source code for the React application.
+  - `App.jsx`: The main application component.
+  - `main.jsx`: The entry point for the application.
+  - `index.css`: Global styles for the application.
+  - `AuthorsNote.jsx`: A component for the author's note page.
+  - `AuthorsNote.css`: Styles for the `AuthorsNote` component.
+- `package.json`: Contains the project metadata and a list of dependencies.
+- `vite.config.js`: The configuration file for Vite.
+
