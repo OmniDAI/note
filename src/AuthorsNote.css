@@ -1,0 +1,35 @@
+.authors-note-container {
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 40px;
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.authors-note-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.authors-note-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.signature {
+  text-align: right;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+.signature b {
+ color: #FFFFFF;
+ font-weight: bold;
+}
